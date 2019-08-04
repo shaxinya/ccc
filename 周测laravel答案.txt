@@ -1,0 +1,47 @@
+一、选择题
+1.B
+2 B
+3c
+4 c
+5 c
+6A
+7C
+8B
+9D
+10C
+11A
+12A
+13A
+14D
+15A
+二、
+1php artisan make:controller LoginController
+
+
+2
+使用Laravel框架的优点
+Laravel框架具有内置的轻量级刀片模板引擎，可加快编译任务并轻松创建具有动态内容的布局。
+提高代码可重用性。
+Eloquent ORM与PHP活动记录实现。
+内置命令行工具“Artisan”，用于创建代码框架，数据库结构并构建其迁移。
+
+使用laravel框架的缺点
+开发过程要求您使用标准，并且应该对编程有真正的了解
+Laravel是新的框架，与npm（对于node.js），ruby gems和python pip相比，Laravel并不是那么强大。
+与ruby on rails相比，laravel的开发速度并不快。
+Laravel是轻量级的，因此与django和rails相比，它具有较少的内置支持。 但是这个问题可以通过集成第三方工具来解决，
+但对于大型和非常自定义的网站来说，这可能是一项单调乏味的任务。
+
+3
+Composer是一个用于管理PHP依赖的工具。 它用于声明项目所依赖的库，并管理（安装/更新）它们。
+Laravel利用Composer来管理其依赖关系
+
+4
+composer create-project laravel/laravel your-project-name version
+
+5 artisan是Laravel附带的命令行界面/工具。 它提供了许多有用的命令，可以帮助您轻松构建应用程序
+
+6
+Middleware充当请求和响应之间的中间人。 它是一种过滤机制。 例如，Laravel包含一个中间件，用于验证应用程序的用户是否经过身份验证。
+ 如果用户通过身份验证，他将被重定向到主页，否则，他将被重定向到登录页面。 Laravel中有两种类型的中间件。 
+全局中间件：将在应用程序的每个HTTP请求上运行。路由中间件：将被分配到特定路由
